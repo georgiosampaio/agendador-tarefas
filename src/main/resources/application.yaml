@@ -1,6 +1,14 @@
 spring:
   application:
     name: agendador-tarefas
+  mongodb:
+    uri: mongodb://localhost:27017/db_agendador
 
 usuario:
   url: "http://localhost:8080"
+
+server:
+  port: 8081
+
+jwt:
+  secret: minha-chave-secreta-super-segura-com-32-caracteres-2026
